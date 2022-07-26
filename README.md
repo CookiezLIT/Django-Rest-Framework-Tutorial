@@ -4,7 +4,7 @@
 
 # Cuprins
 
-[1. Setup]
+[1. Setup]([1.])
 
 [1.1 Instalare python]
 
@@ -19,3 +19,7 @@
 [2.1 Structura unui proiect de Django]
 
 [2.2 ]
+
+
+
+[1.]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.0_setup.md
