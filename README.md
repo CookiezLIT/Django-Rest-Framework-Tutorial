@@ -1,7 +1,7 @@
 # Tutorial Django REST Framework
 
 ## Scopul tutorialului
-Scopul tutorialului este intelegerea conceptelor de baza din Django/django_rest_framework cum ar fi:
+Scopul tutorialului este intelegerea conceptelor de API si RestAPI si a notiunilor de baza din Django/django_rest_framework cum ar fi:
 ORM, modele, serializeri, view-uri, endpoint-uri, etc. Tutorialul este facut atat pentru Linux, cat si pentru Windows, astfel incat cat mai multa lume sa-l poata urma.
 
 ##Cerinte preliminare
@@ -17,9 +17,30 @@ Codul final pentru proiect este disponibil in sectiunea src si poate fi consulta
 
 Pentru orice intrebare, va rog sa mi scrieti la adresa de email: #TODO, sau sa adaugati un issue pe github.
 
+## Ce este un API?
+
+API(Application Programming Interface) reprezinta un set de reguli si definitii de comunicare pentru construirea si integrarea aplicatiilor. In termeni mai simpli, un API reprezinta o interfata care ne permite sa comunicam cu un serviciu.
+Cel mai simplu exemplu de API poate fi aplicatia de vreme de pe telefonul dumneavoastra, ce face **request**-uri catre server pentru a actualiza starea vremii. Deseori, in API-urilor se afla servicii foarte complexe, ce apeleaza ele insasi alte API-uri. Un alt exemplu de API poate fi reprezentat de masina. Folosind volanul si pedalele putem comunica cu masina.
+In spatele acestor "manevre" insa, sunt executate calcule complexe de computer-ul masinii si diferite sisteme din el, cum ar fi sistemul ce controleaza nivelul de carburant si oxigen din motor, sistemul ce previne rotile sa se blocheze la franare (ABS), etc.
+Cu aceste sisteme nu putem comunica direct, noi comunicam cu masina doar prin volan si pedale, iar restul operatiilor se intampla in spate.
+Comunicarea cu aceste sisteme se desfasoara sub niste reguli prestabilite (nu putem apasa acceleratia mai adanc de podea, si nu putem intoarce volanul decat de un numar prestabilit de ori). 
+API-ul reprezinta astfel o comunicare reglementata de un set prestabilit de reguli intre doua sisteme.
+
+## Ce este un REST API?
+
+#TODO
+
 ## Ce este Django Rest Framework?
 
 #TODO
+
+## Termeni folositi in lucrul cu Django
+
+1. request
+2. endpoint
+3. client
+4. server
+5. TODO
 
 ## Cuprins
 
