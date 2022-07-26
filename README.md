@@ -4,7 +4,7 @@
 Scopul tutorialului este intelegerea conceptelor de API si RestAPI si a notiunilor de baza din Django/django_rest_framework cum ar fi:
 ORM, modele, serializeri, view-uri, endpoint-uri, etc. Tutorialul este facut atat pentru Linux, cat si pentru Windows, astfel incat cat mai multa lume sa-l poata urma.
 
-##Cerinte preliminare
+## Cerinte preliminare
 
 Experienta cu python3 si terminal (Windows/Linux)
 
@@ -12,7 +12,7 @@ Experienta cu python3 si terminal (Windows/Linux)
 
 Acest tutorial este un tutorial "prietenos" adresat tuturor developerilor de python care sunt interesati sa invete django-rest-framework.
 Daca nu ati reusit sa terminati quickstart-ul de pe site-ul oficial, poate acest tutorial, ce intra mai in detaliu va poate ajuta sa intelegeti cum functioneaza acest minunat framework.
-
+Navigarea intre filele din tutorial se poate face cu butoanele(link-urile) din josul paginii Previous/Next/Cuprins.
 Codul final pentru proiect este disponibil in sectiunea src si poate fi consultat in cazul unui bugg, dar va recomand din proprie experienta sa rezolvati bugg-urile singuri, pentru a aprofunda mai multe cunostinte.
 
 Pentru orice intrebare, va rog sa mi scrieti la adresa de email: #TODO, sau sa adaugati un issue pe github.
@@ -25,10 +25,13 @@ In spatele acestor "manevre" insa, sunt executate calcule complexe de computer-u
 Cu aceste sisteme nu putem comunica direct, noi comunicam cu masina doar prin volan si pedale, iar restul operatiilor se intampla in spate.
 Comunicarea cu aceste sisteme se desfasoara sub niste reguli prestabilite (nu putem apasa acceleratia mai adanc de podea, si nu putem intoarce volanul decat de un numar prestabilit de ori). 
 API-ul reprezinta astfel o comunicare reglementata de un set prestabilit de reguli intre doua sisteme.
-
+Mai multe detalii despre un API pot fi gasite [aici](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces)
 ## Ce este un REST API?
 
-#TODO
+REST API(Representational State Transfer) este un stil arhitectural pentru comunicarea cu API-uri, ce foloseste request-uri de tip
+HTTP pentru accesul si schimbul de date intre client si server. Arhitectura contine un set clar de reguli, ce asigura fiabilitate, performanta ridicata,
+siguranta si scalabiliate sistemelor ce respecta aceste reguli. Django-rest-framework ne ofera abstractizari peste aceste reguli,
+astfel ca nu vom intra in prea multe detalii, dar mai multe informatii pot fi gasite [aici](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces#soap-vs-rest) si [aici](https://aws.amazon.com/what-is/restful-api/).
 
 ## Ce este Django Rest Framework?
 
