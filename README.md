@@ -1,9 +1,19 @@
 # Tutorial Django REST Framework
 
+## Scopul tutorialului
+Scopul tutorialului este intelegerea conceptelor de baza din Django/django_rest_framework cum ar fi:
+ORM, modele, serializeri, view-uri, endpoint-uri, etc. Tutorialul este facut atat pentru Linux, cat si pentru Windows, astfel incat cat mai multa lume sa-l poata urma.
+
+
 ## Cuvant inainte
 
 
-Acest tutorial este adresat tuturor developerilor de python care sunt interesati sa invete python.
+Acest tutorial este un tutorial "prietenos" adresat tuturor developerilor de python care sunt interesati sa invete django-rest-framework.
+Daca nu ati reusit sa terminati quickstart-ul de pe site-ul oficial, poate acest tutorial, ce intra mai in detaliu va poate ajuta sa intelegeti cum functioneaza acest minunat framework.
+
+Codul final pentru proiect este disponibil in sectiunea src si poate fi consultat in cazul unui bugg, dar va recomand din proprie experienta sa rezolvati bugg-urile singuri, pentru a aprofunda mai multe cunostinte.
+
+Pentru orice intrebare, va rog sa mi scrieti la adresa de email: #TODO, sau sa adaugati un issue pe github.
 
 
 
@@ -31,4 +41,4 @@ Acest tutorial este adresat tuturor developerilor de python care sunt interesati
 [1.1]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.1_instalare_python.md
 [1.2]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.2_instalare_virtualenv.md
 [1.3]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.3_creare_virtualenv.md
-[1.4]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.4_activare_env_instalare_dependinte.md
+[1.4]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.4_instalare_dependinte.md
