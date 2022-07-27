@@ -6,7 +6,7 @@ ORM, modele, serializeri, view-uri, endpoint-uri, etc. Tutorialul este facut ata
 
 ## Cerinte preliminare
 
-Experienta cu python3 si terminal (Windows/Linux)
+Experienta cu python3, baze de date si cu lucrul in terminal (Windows/Linux)
 
 ## Cuvant inainte
 
@@ -35,16 +35,20 @@ astfel ca nu vom intra in prea multe detalii, dar mai multe informatii pot fi ga
 
 ## Ce este Django Rest Framework?
 
-#TODO
+DRF este un framework ce permite transferul de informatii intre o interfata si o baza de date intr-un mod simplu. Este croit pentru crearea
+de servicii de tip rest si este in momentul de fata(2022) unul dintre cele mai populare framework-uri pentru backend. 
 
 ## Termeni folositi in lucrul cu Django
 
-1. request
-2. endpoint
-3. client
-4. server
-5. TODO
-
+1. ### request
+Un request este un mesaj transmis intre client(sau browser) si server. Request-urile sunt esentiale in transmiterea informatiei cerute,
+cum ar fi primirea unei pagini web.
+2. ### endpoint
+Un endpoint este, in cel mai simpli termeni, un url prin care se poate face o transmitere de date. Reprezinta unul dintre capetele canalului de comunicatie dintre client si server.
+3. ### client
+Un client este o aplicatie (de multe ori un browser, sau un serviciu definit de noi) ce apeleaza (trimite request-uri) catre un server. 
+4. ### server
+Un server este un program ce asigura un serviciu pentru clienti. Acesta asteapta request-uri si le indeplineste pentru clienti.
 ## Cuprins
 
 [1. Setup][1.0]
