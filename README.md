@@ -33,12 +33,14 @@ HTTP pentru accesul si schimbul de date intre client si server. Arhitectura cont
 siguranta si scalabiliate sistemelor ce respecta aceste reguli. Django-rest-framework ne ofera abstractizari peste aceste reguli,
 astfel ca nu vom intra in prea multe detalii, dar mai multe informatii pot fi gasite [aici](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces#soap-vs-rest) si [aici](https://aws.amazon.com/what-is/restful-api/).
 
-## Ce este Django Rest Framework?
+## Ce este Django Rest Framework(DRF)?
 
 DRF este un framework ce permite transferul de informatii intre o interfata si o baza de date intr-un mod simplu. Este croit pentru crearea
-de servicii de tip rest si este in momentul de fata(2022) unul dintre cele mai populare framework-uri pentru backend. 
+de servicii de tip rest si este in momentul de fata(2022) unul dintre cele mai populare framework-uri pentru backend.
 
-## Termeni folositi in lucrul cu Django
+![Django rest framework and the web](/images/django_rest.png)
+
+## Termeni folositi in lucrul cu DRF
 
 1. ### request
 Un request este un mesaj transmis intre client(sau browser) si server. Request-urile sunt esentiale in transmiterea informatiei cerute,
