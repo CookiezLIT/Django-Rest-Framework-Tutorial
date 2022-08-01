@@ -1,3 +1,10 @@
-from django.shortcuts import render
+from models import Angajat
+from serializers import AngajatSerializer
+from rest_framework import generics
 
-# Create your views here.
+
+class AngajatList(generics.GenericAPIView):
+    queryset = Angajat.objects.all()
+    serializer_class = AngajatSerializer
+
+
