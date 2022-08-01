@@ -45,6 +45,7 @@ de servicii de tip rest si este in momentul de fata(2022) unul dintre cele mai p
 1. ### request
 Un request este un mesaj transmis intre client(sau browser) si server. Request-urile sunt esentiale in transmiterea informatiei cerute,
 cum ar fi primirea unei pagini web.
+
 2. ### endpoint
 Un endpoint este, in cel mai simpli termeni, un url prin care se poate face o transmitere de date. Reprezinta unul dintre capetele canalului de comunicatie dintre client si server.
 3. ### client
