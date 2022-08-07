@@ -7,4 +7,3 @@ class AngajatList(generics.ListCreateAPIView):
     queryset = Angajat.objects.all()
     serializer_class = AngajatSerializer
     permission_classes = []
-
