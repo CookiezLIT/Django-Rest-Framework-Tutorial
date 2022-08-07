@@ -54,7 +54,7 @@ Un client este o aplicatie (de multe ori un browser, sau un serviciu definit de 
 Un server este un program ce asigura un serviciu pentru clienti. Acesta asteapta request-uri si le indeplineste pentru clienti.
 ## Cuprins
 
-[1. Setup][1.0]
+[1.0 Setup][1.0]
 
 [1.1 Instalare python][1.1]
 
@@ -64,11 +64,19 @@ Un server este un program ce asigura un serviciu pentru clienti. Acesta asteapta
 
 [1.4 Activarea virtualenv-ului si instalarea dependintelor][1.4]
 
-[2. Init project][2.0]
+[2.0 Init project][2.0]
 
-[2.1 Structura unui proiect de Django][2.1]
+[2.1 Rularea proiectului][2.1]
 
-[2.2 ]
+[3.0 Primul model Django][3.0]
+
+[3.1 Migrari][3.1]
+
+[3.2 Shell-ul interactiv][3.2]
+
+[3.3 Serializeri][3.3]
+
+[3.4 View-uri (generice)][3.4]
 
 
 [Next][101] | [Cuprins][102]
@@ -79,6 +87,14 @@ Un server este un program ce asigura un serviciu pentru clienti. Acesta asteapta
 [1.2]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.2_instalare_virtualenv.md
 [1.3]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.3_creare_virtualenv.md
 [1.4]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.4_instalare_dependinte.md
+[2.0]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/init_project/2.0_init_project.md
+[2.1]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/init_project/2.1_rularea_proiectului.md
+[3.0]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/development/3.0_first_model.md
+[3.1]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/development/3.1_migration.md
+[3.2]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/development/3.2_shell.md
+[3.3]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/development/3.3_serializer.md
+[3.4]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/development/3.4_view.md
+
 
 [101]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/beginner/setup/1.0_setup.md
 [102]: https://github.com/CookiezLIT/Django-Rest-Framework-Tutorial/blob/main/README.md
